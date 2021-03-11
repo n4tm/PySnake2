@@ -1,7 +1,7 @@
 # PySnake2
 A Snake game made in Pygame
 
-Requirements:
+# Requirements:
 Python version between 3 and 3.8 - https://www.python.org/ftp/python/3.8.8/python-3.8.8-amd64.exe
 obs: Pygame is not working in python 3.9 yet.
 
