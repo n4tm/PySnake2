@@ -1,4 +1,5 @@
 from random import randint
+from sys import exit
 import config
 import fruit
 import snake
@@ -38,9 +39,11 @@ def game_loop():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     quit()
+                    exit()
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_q:
                         quit()
+                        exit()
                     if event.key == pygame.K_e:
                         game_loop()
                 if event.type == config.BLINK_EVENT:
@@ -105,3 +108,4 @@ def game_loop():
 
     pygame.quit()
     quit()
+    exit()
